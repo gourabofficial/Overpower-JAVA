@@ -4,7 +4,7 @@ public class StudentData {
     long roll;
     String house;
 
-    public StudentData(int age, String name, long roll, String house) {
+    StudentData(int age, String name, long roll, String house) {
         this.age = age;
         this.name = name;
         this.roll = roll;
@@ -15,7 +15,7 @@ public class StudentData {
     @Override
     public String toString() {
 
-        return STR."Student Detail : {name :\{name} age:\{age} roll: \{roll} house: \{house} }";
+        return "Student name : " + name + "\nStudent age : " + age + "\nStudent roll : " + roll + "\nStudent house : " + house;
     }
 
     public static void main(String[] args) {

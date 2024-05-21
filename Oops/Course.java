@@ -11,6 +11,7 @@ public class Course {
         this.entrollStudent = new String[maxCapacity];
     }
 
+    
 
     void getEnrolledStudent(String Studentname){
         entrollStudent[EnrolledStudent] = Studentname;

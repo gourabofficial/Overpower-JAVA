@@ -9,6 +9,6 @@ public class Guessing {
             System.out.print("please gues the number 1 to 10: ");
              gues = sc.nextInt();
         }while(number != gues);
-            System.out.println("you gues Sucessfully");
+         System.out.println("you gues Sucessfully");
     }
 }
