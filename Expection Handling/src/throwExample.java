@@ -1,7 +1,14 @@
+
+import java.util.Scanner;
+
 public class throwExample {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 2;
+        Scanner input = new Scanner(System.in);
+       
+        System.out.print("Enter the value of a: ");
+        int a = input.nextInt();
+        System.out.print("Enter the value of b: ");
+        int b = input.nextInt();
 
         int result;
 

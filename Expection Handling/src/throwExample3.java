@@ -13,6 +13,6 @@ public class throwExample3 {
     public static void main(String[] args) {
         //printname(null);
        // printname("ishowspeed");
-        printname("mimi");
+        printname("ishowspeed");
     }
 }
