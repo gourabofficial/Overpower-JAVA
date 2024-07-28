@@ -26,6 +26,7 @@ public class stringExample {
         System.out.println("Remove Element: " + integer.remove(0) + " at index 1");
         System.out.println("Remove Element: " + integer.remove(0)+ " at index 2");
         System.out.println("Remove Element: " + integer.remove(0)+ " at index 3");
+        System.out.println("Remove Element: " + integer.remove(0)+ " at index 4");
 
         System.out.println();
         for (Integer j : integer) {
