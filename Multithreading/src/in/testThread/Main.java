@@ -14,6 +14,7 @@ public class Main {
         System.out.println();
         for (int i = 1; i <= 1000; i++) {
             System.out.printf("%d& ", i);
+
         }
         System.out.println();
         long endTime = System.currentTimeMillis();

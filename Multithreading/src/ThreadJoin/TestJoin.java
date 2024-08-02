@@ -12,12 +12,16 @@ public class TestJoin {
 
         t1.start();
         t1.join();
+        System.out.println(t1.getPriority());
 
         t2.start();
         t2.join();
+        t2.setPriority(10);
+        System.out.println(t2.getPriority());
 
         t3.start();
         t3.join();
+        System.out.println(t3.getPriority());
 
     }
 }

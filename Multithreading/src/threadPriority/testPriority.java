@@ -7,6 +7,7 @@ public class testPriority {
         Printtask task3 = new Printtask("task 3: c");
 
         Thread t1 = new Thread(task1);
+
         t1.setPriority(Thread.MIN_PRIORITY);
         t1.start();
 
