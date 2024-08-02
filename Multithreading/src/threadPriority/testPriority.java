@@ -17,5 +17,9 @@ public class testPriority {
         Thread t3 = new Thread(task3);
         t3.setPriority(Thread.MAX_PRIORITY);
         t3.start();
+
+        System.out.println("Thread 1 priority: " + t1.getName());
+        System.out.println("Thread 2 priority: " + t2.getName());
+        System.out.println("Thread 3 priority: " + t3.getName());
     }
 }
