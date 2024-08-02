@@ -1,7 +1,7 @@
 package SynchronizedTest;
 
 public class counter {
-    private int counter = 0;
+    private int counter = 1;
 
     public void increment(){
         counter++;

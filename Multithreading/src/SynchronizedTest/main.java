@@ -7,10 +7,13 @@ public class main {
         updateThread t1 = new updateThread(counter);
         updateThread t2 = new updateThread(counter);
 
+
         t1.start();
         t2.start();
 
      try{
+
+
          t1.join();
          t2.join();
      }catch (InterruptedException e){
