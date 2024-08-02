@@ -1,7 +1,7 @@
 package threadPriority;
 
 public class testPriority {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         Printtask task1 = new Printtask("task 1: a");
         Printtask task2 = new Printtask("task 2: b");
         Printtask task3 = new Printtask("task 3: c");
@@ -9,6 +9,8 @@ public class testPriority {
         Thread t1 = new Thread(task1);
         t1.setPriority(Thread.MIN_PRIORITY);
         t1.start();
+
+        t1.join();
 
         Thread t2 = new Thread(task2);
         t2.setPriority(Thread.NORM_PRIORITY);
