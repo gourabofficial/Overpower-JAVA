@@ -1,7 +1,11 @@
+package SuperKeyword;
+
+import in.polymosphism.Animal;
+
 public class ang {
     String color = "white";
 }
-class Dog extends Animal{
+class Dog extends Animal {
     String color = "Black";
 
     void Display(){

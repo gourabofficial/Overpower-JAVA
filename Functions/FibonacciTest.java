@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Fibonacci{
+public class FibonacciTest {
     public static int Fibonacci_series(int n){
         if(n == 1   || n == 2)
         return 1;

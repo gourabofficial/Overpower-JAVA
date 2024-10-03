@@ -1,0 +1,67 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+!target/*.jar
+!.mvn/wrapper/mvnw
+!.mvn/wrapper/mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local configuration files
+*.local
+*.env
+
+# Compiled Python files
+*.pyc
+
+# JRebel
+rebel.xml
+
+# SonarLint
+.sonar
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+private/
+*.swp
+*.swo
